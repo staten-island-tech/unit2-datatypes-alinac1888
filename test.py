@@ -30,7 +30,34 @@ else:
 print( 4 % 2)
 # remainder is output """
 
-def factor(x, y):
+""" def factor(x, y):
     if x % y:
         print("y is a factor of x")
-factor(6734, 64)
+factor(6734, 64) """
+""" rideHeightOK = input("Are you tall enough?")
+if rideHeightOK == "yes":
+    print("heightOK")
+withAdult = input("Are you with an adult?")
+if withAdult == "yes":
+    print("withAdult") """
+
+rideHeightOK = True
+withAdult = True
+healthHold = False
+if rideHeightOK == False:
+    print("not tall enough")
+else:
+    print("tallenough")
+
+if withAdult == True:
+    print("riding with an adult")
+else:
+    print("without adult")
+
+if healthHold == True:
+    print("health restriction flagged")
+else: 
+    print("no health restriction flagged")
+    
+canride = (rideHeightOK or withAdult) and (not healthHold)
+print(f"yes{canride}")
