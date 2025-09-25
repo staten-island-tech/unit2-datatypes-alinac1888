@@ -36,7 +36,7 @@ print( 4 % 2)
 factor(6734, 64) """
 
 
-rideHeightOK = input("Are you tall enough?")
+""" rideHeightOK = input("Are you tall enough?")
 if rideHeightOK == False:
     print("not tall enough")
 else:
@@ -55,4 +55,32 @@ else:
     print("no health restriction flagged")
     
 canride = ("tall enough" or "riding with an adult") and (not "no health restriction flagged")
-print(f"yes{canride}")
+print(f"yes{canride}") """
+
+number = 100
+if number % 2 == 0:
+        print(f"{number} is even")
+else:
+        print(f"{number} is odd")
+
+bill = 120
+
+service = input("How was the service?")
+if service == "Great":
+    print(f"Tip = 25%, Total Cost = {bill * 1.25}")
+
+elif service == "Good":
+    print(f"Tip = 20%, Total Cost = {bill * 1.2}")
+
+elif service == "Okay":
+    print(f"Tip = 15%, Total Cost = {bill * 1.15}")
+
+elif service == "Bad":
+    print(f"Tip = 0%, Total Cost = {bill}")
+
+input = 100
+numb = 6
+if input % numb == 0:
+     print(f"{numb} is a factor of {input}")
+else:
+     print(f"{numb} is not a factor of {input}")
