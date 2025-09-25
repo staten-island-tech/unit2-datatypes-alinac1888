@@ -57,7 +57,7 @@ else:
 canride = ("tall enough" or "riding with an adult") and (not "no health restriction flagged")
 print(f"yes{canride}") """
 
-number = 100
+""" number = 100
 if number % 2 == 0:
         print(f"{number} is even")
 else:
@@ -78,9 +78,14 @@ elif service == "Okay":
 elif service == "Bad":
     print(f"Tip = 0%, Total Cost = {bill}")
 
-input = 100
-numb = 6
-if input % numb == 0:
-     print(f"{numb} is a factor of {input}")
+x = 100
+y = 6
+if x % y == 0:
+     print(f"{y} is a factor of {x}")
 else:
-     print(f"{numb} is not a factor of {input}")
+     print(f"{y} is not a factor of {x}") """
+    
+color = 10
+while count >= 1:
+    print("this is a count number", count)
+    count = count - 1
