@@ -34,58 +34,57 @@ print( 4 % 2)
     if x % y:
         print("y is a factor of x")
 factor(6734, 64) """
+canride = ()
+rideHeightOK = input("Are you tall enough?")
+if rideHeightOK == "Yes":
+    "Yes" = True
+    print()
 
 
-""" rideHeightOK = input("Are you tall enough?")
-if rideHeightOK == False:
-    print("not tall enough")
-else:
-    print("tallenough")
 
-withAdult = input("Are you riding with an adult?")
-if withAdult == True:
-    print("riding with an adult")
-else:
-    print("without adult")
+# withAdult = input("Are you riding with an adult?")
+# if withAdult == "Yes":
+#     print("riding with an adult")
+# else:
+#     print("without adult")
+# healthHold = input("Do you have health restrictions?")
+# if healthHold == "Yes":
+#     print("health restriction flagged")
+# else: 
+#     print("no health restriction flagged")
+#      or "riding with an adult" = True) and (not "no health restriction flagged")
+# print("Yes you can ride")
 
-healthHold = input("Do you have health restrictions?")
-if healthHold == True:
-    print("health restriction flagged")
-else: 
-    print("no health restriction flagged")
+
+# number = 100
+# if number % 2 == 0:
+#         print(f"{number} is even")
+# else:
+#         print(f"{number} is odd")
+
+# bill = 120
+
+# service = input("How was the service?")
+# if service == "Great":
+#     print(f"Tip = 25%, Total Cost = {bill * 1.25}")
+
+# elif service == "Good":
+#     print(f"Tip = 20%, Total Cost = {bill * 1.2}")
+
+# elif service == "Okay":
+#     print(f"Tip = 15%, Total Cost = {bill * 1.15}")
+
+# elif service == "Bad":
+#     print(f"Tip = 0%, Total Cost = {bill}")
+
+# x = 100
+# y = 6
+# if x % y == 0:
+#      print(f"{y} is a factor of {x}")
+# else:
+#      print(f"{y} is not a factor of {x}")
     
-canride = ("tall enough" or "riding with an adult") and (not "no health restriction flagged")
-print(f"yes{canride}") """
-
-""" number = 100
-if number % 2 == 0:
-        print(f"{number} is even")
-else:
-        print(f"{number} is odd")
-
-bill = 120
-
-service = input("How was the service?")
-if service == "Great":
-    print(f"Tip = 25%, Total Cost = {bill * 1.25}")
-
-elif service == "Good":
-    print(f"Tip = 20%, Total Cost = {bill * 1.2}")
-
-elif service == "Okay":
-    print(f"Tip = 15%, Total Cost = {bill * 1.15}")
-
-elif service == "Bad":
-    print(f"Tip = 0%, Total Cost = {bill}")
-
-x = 100
-y = 6
-if x % y == 0:
-     print(f"{y} is a factor of {x}")
-else:
-     print(f"{y} is not a factor of {x}") """
-    
-color = 10
-while count >= 1:
-    print("this is a count number", count)
-    count = count - 1
+# count = 10
+# while count >= 1:
+#     print("this is a count number", count)
+#     count = count - 1
