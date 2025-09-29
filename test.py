@@ -34,13 +34,11 @@ print( 4 % 2)
     if x % y:
         print("y is a factor of x")
 factor(6734, 64) """
-canride = ()
+""" canride = ()
 rideHeightOK = input("Are you tall enough?")
 if rideHeightOK == "Yes":
     "Yes" = True
-    print()
-
-
+    print() """
 
 # withAdult = input("Are you riding with an adult?")
 # if withAdult == "Yes":
@@ -88,3 +86,10 @@ if rideHeightOK == "Yes":
 # while count >= 1:
 #     print("this is a count number", count)
 #     count = count - 1
+
+x = 120
+y = 180
+z = 60
+gcf = x % z == 0 and y % z == 0
+while gcf != 0:
+    
