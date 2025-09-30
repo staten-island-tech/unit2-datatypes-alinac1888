@@ -34,14 +34,12 @@ print( 4 % 2)
     if x % y:
         print("y is a factor of x")
 factor(6734, 64) """
-canride = ()
+""" canride = ()
 rideHeightOK = input("Are you tall enough?")
 if rideHeightOK == "Yes":
     "Yes" = True
     print()
-
-
-
+ """
 # withAdult = input("Are you riding with an adult?")
 # if withAdult == "Yes":
 #     print("riding with an adult")
@@ -88,3 +86,14 @@ if rideHeightOK == "Yes":
 # while count >= 1:
 #     print("this is a count number", count)
 #     count = count - 1
+
+x = 60
+y = 40
+def gcf(x,y):
+    while y != 0:
+        x, y = y, x % y
+    return x
+print(gcf(x,y))
+""" x = int(input("What is your first number?"))
+y = int(input("What is your second number?"))
+print("The GCF is:", gcf(x,y)) """
