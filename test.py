@@ -87,13 +87,16 @@ if rideHeightOK == "Yes":
 #     print("this is a count number", count)
 #     count = count - 1
 
-x = 60
-y = 40
+
 def gcf(x,y):
-    while y != 0:
-        x, y = y, x % y
-    return x
-print(gcf(x,y))
-""" x = int(input("What is your first number?"))
+    if y == 0:
+        return x
+    else:
+        return gcf(y, x % y)
+
+x = int(input("What is your first number?"))
 y = int(input("What is your second number?"))
-print("The GCF is:", gcf(x,y)) """
+
+GCD = gcf(x,y)
+print(f"The GCF is {GCD}")
+    
