@@ -38,8 +38,13 @@ factor(6734, 64) """
 rideHeightOK = input("Are you tall enough?")
 if rideHeightOK == "Yes":
     "Yes" = True
+<<<<<<< HEAD
     print() """
 
+=======
+    print()
+ """
+>>>>>>> 127a0d97df138127341f0ff9565395b13a642e80
 # withAdult = input("Are you riding with an adult?")
 # if withAdult == "Yes":
 #     print("riding with an adult")
@@ -87,9 +92,25 @@ if rideHeightOK == "Yes":
 #     print("this is a count number", count)
 #     count = count - 1
 
+<<<<<<< HEAD
 x = 120
 y = 180
 def gcf(x,y):
     while y != 0:
         x, y = y, x % y == 0
     return x
+=======
+
+def gcf(x,y):
+    if y == 0:
+        return x
+    else:
+        return gcf(y, x % y)
+
+x = int(input("What is your first number?"))
+y = int(input("What is your second number?"))
+
+GCD = gcf(x,y)
+print(f"The GCF is {GCD}")
+    
+>>>>>>> 127a0d97df138127341f0ff9565395b13a642e80
