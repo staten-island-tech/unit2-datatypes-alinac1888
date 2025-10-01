@@ -89,7 +89,7 @@ if rideHeightOK == "Yes":
 
 x = 120
 y = 180
-z = 60
-gcf = x % z == 0 and y % z == 0
-while gcf != 0:
-    
+def gcf(x,y):
+    while y != 0:
+        x, y = y, x % y == 0
+    return x
