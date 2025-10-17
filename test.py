@@ -104,3 +104,14 @@ y = int(input("What is your second number?"))
 
 GCD = gcf(x,y)
 print(f"The GCF is {GCD}")
+
+first = int(input("what is your first number?"))
+second = int(input("What is your second number"))
+
+def e(first, second):
+     gcf = 0
+     for i in range(1, first):
+        if first % 1 == 0 and second % 1 == 0:
+            gcf = 1
+            return gcf
+print(e(first,second))
